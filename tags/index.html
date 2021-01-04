@@ -61,70 +61,14 @@
 
 
 
-    
-        <script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        
-            load: ['[tex]/mhchem'],
-        
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        
-            packages: {'[+]': ['mhchem']},
-        
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
           
 
 
     
     
     <title>
-          
-            SunYu 成長日記
+        
+            標籤 | SunYu 成長日記
         
     </title>
     
@@ -277,51 +221,21 @@
 </aside>
   
   <main id="main-contain" class="mdui-container mdui-m-t-5">
+    <div class="mdui-card mdui-p-b-2 mdui-m-b-5">
+    <div class="post-header"> 
+        <a class="post-header-title" href="/tags/index.html">標籤</a>
+    </div>
+    <div id="page-card" class="mdui-card-content mdui-p-x-4">
+        
+            <div class="page-describe">
+    暫無標籤
+</div>
+<div class="tags-contain">
     
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/archives/0.html"></a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      發布於:&nbsp;2021-01-03
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新於:&nbsp;2021-01-03
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分類於:&nbsp;
-    </span>
-    
-  </div>
-</div>   
-    
+</div>
 
-
-
-      
-      
-  <div class="tag-line-space"></div>
-
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            
-          
         </div>
         
-        <div style="text-align:center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/archives/0.html">閱讀更多</a>
-        </div>
-      </div>
-    </article>
-
-
 
   </main>
   <footer id="footer" class="mdui-text-center mdui-m-t-5 mdui-p-b-2 mdui-p-t-4 mdui-color-theme">
