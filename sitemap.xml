@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tillmac.github.io/research/2020-09-11/721411127/</loc>
+    
+    <lastmod>2021-01-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tillmac.github.io/research/2020-08-24/749599255/</loc>
+    
+    <lastmod>2021-01-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tillmac.github.io/review/2020-08-10/3712571279/</loc>
+    
+    <lastmod>2021-01-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tillmac.github.io/review/2020-10-05/2168133719/</loc>
+    
+    <lastmod>2021-01-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tillmac.github.io/categories/index.html</loc>
-    
-    <lastmod>2021-01-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tillmac.github.io/2020-09-11/2affdc37/</loc>
-    
-    <lastmod>2021-01-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tillmac.github.io/2020-08-24/2cadfa17/</loc>
-    
-    <lastmod>2021-01-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tillmac.github.io/2020-08-10/dd49578f/</loc>
-    
-    <lastmod>2021-01-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tillmac.github.io/2020-10-05/813b1857/</loc>
     
     <lastmod>2021-01-06</lastmod>
     
@@ -68,13 +68,6 @@
   
   <url>
     <loc>https://tillmac.github.io/tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2021-01-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tillmac.github.io/tags/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -122,17 +115,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://tillmac.github.io/tags/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/</loc>
+    <lastmod>2021-01-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://tillmac.github.io/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/</loc>
+    <loc>https://tillmac.github.io/categories/review/</loc>
     <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://tillmac.github.io/categories/%E5%B0%8F%E7%A0%94%E7%A9%B6/</loc>
+    <loc>https://tillmac.github.io/categories/research/</loc>
     <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
