@@ -61,62 +61,6 @@
 
 
 
-    
-        <script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        
-            load: ['[tex]/mhchem'],
-        
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        
-            packages: {'[+]': ['mhchem']},
-        
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
           
 
 
@@ -278,105 +222,30 @@
   
   <main id="main-contain" class="mdui-container mdui-m-t-5">
     
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/posts/c2690fdf.html">test 123</a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      發布於:&nbsp;2021-01-07
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新於:&nbsp;2021-01-07
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分類於:&nbsp;
-    </span>
-    
-  </div>
-</div>   
-    
 
-
-
-      
-      
-  <div class="tag-line-space"></div>
-
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            <p>測試測試</p>
-          
-        </div>
+<div class="mdui-card mdui-p-a-4 mdui-m-b-5">
+    <div class="page-describe">
+        目前共 2 篇文章。
+    </div>
+    <div class="posts-collapse">
         
-        <div style="text-align:center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/posts/c2690fdf.html">閱讀更多</a>
-        </div>
-      </div>
-    </article>
+            
+            
+                <div class="collection-title">
+                    <a href="/archives/2021"><h2>2021<small>歸檔</small></h2></a>
+                </div>
+                
+            
 
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/posts/813b1857.html">《快思慢想》閱讀心得</a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      發布於:&nbsp;2020-10-05
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新於:&nbsp;2021-01-07
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分類於:&nbsp;<a class="category-link" href="/categories/review/">閱讀心得</a>
-    </span>
-    
-  </div>
-</div>   
-    
-
-
-
-      
-      
-  <div class="post-tags">
-    
-      <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/%E5%BF%AB%E6%80%9D%E6%85%A2%E6%83%B3/ >快思慢想</a>
-      </i>
-    
-      <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/ >閱讀心得</a>
-      </i>
-    
-  </div>
-
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            <p>最先知道這本書是在兩年前（我大學一年級），從我哥房間書櫃挖出來的。當初被封面一支鉛筆、背景為乳白的極簡設計所吸引，同一時間我對於「思考」這一主題又是有興趣的，因此，我決定要在兩個月的時間內把這本書看完。殊不知，有這樣的心，卻沒有對應的能力，我才看不到三分之一，便覺得乏味、沒有動力繼續閱讀。</p>
-<p>直至近期，開始接觸經濟、股票、道德⋯⋯等多種不同範圍的主題，看到很多前輩很推一本書叫做《快思慢想》——也就是兩年前我無法看完的那一本書。這再次激起了我的好奇，究竟是怎麼樣的書能夠如此吸引人？而諾貝爾經濟學獎得主 Daniel Kahnemen 究竟寫了些什麼？難道後三分之二的內容才是精華所在？</p>
-
-<p>在多個疑問的驅使之下，我毅然決然地決定再次挑戰這本書，我想知道在經歷《原子習慣》等書的洗禮後（這本書我是在今年 2020 二月底看完，預計這個月會再讀一次，會再寫一篇閱讀心得，講述第一次閱後所產生的改變，以及第二次重閱後所產生的改變），到底能不能使我攻克《快思慢想》呢？回想起當時看這本書的記憶，只想起這本書充滿著很多令我頭昏眼花的專有名詞，以及十足的慢節奏，著實使當時的我吃不消而已。至於書中所倡導、公開的研究，我已忘了大半。所以，我決定再次挑戰它。</p>
-          
-        </div>
+            <div class="collection-item">
+                <h3><a href="/posts/c2690fdf.html">test 123</a></h3>
+                <time itemprop="dateCreated" datetime=2021-01-07 >
+                    2021.01.07
+                </time>
+            </div>
         
-        <div style="text-align:center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/posts/813b1857.html">閱讀更多</a>
-        </div>
-      </div>
-    </article>
-
+    </div>
+</div>
 
 
   </main>
