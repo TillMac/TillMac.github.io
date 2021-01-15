@@ -1,430 +1,713 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Cache-Control" content="no-siteapp">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    
-    <meta name="renderer" content="webkit"/>
-    <meta name="force-rendering" content="webkit"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href="https://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(window.location.href); </script>
-    
-    
-        <link rel="preload" crossorigin="crossorigin" href="/fonts/roboto/Roboto-Regular.woff2" as="font">
-        <link rel="preload" crossorigin="crossorigin" href="/fonts/roboto/Roboto-Bold.woff2" as="font">
-    
-    
-    
-        <link rel="shortcut icon" href="favicon.ico">
-    
-
-    
-    
-        
-<link rel="stylesheet" href="/css/mdui.min.v1.0.0.css">
-
-    
-    
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="/css/iconfont.css">
-
-
-    
-    
-
-    
-        <script data-ad-client="ca-" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-
-
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3L2GJYZFP"></script>
-<script>
-  var host = window.location.hostname;
-  if (host != "localhost" || true == false) {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-L3L2GJYZFP');
-  }
-</script>
-
-
-
-
-
-
-
-
-
-
-    
-        <script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        
-            load: ['[tex]/mhchem'],
-        
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        
-            packages: {'[+]': ['mhchem']},
-        
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-          
-
-
-    
-    
-    <title>
-          
-            SunYu 成長日記
-        
-    </title>
-    
-    
-<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="SunYu 成長日記" type="application/atom+xml">
-</head>
-<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-amber mdui-theme-accent-pink">
+  <meta charset="utf-8">
   
-  <header class="mdui-appbar mdui-appbar-fixed">
-  <div id="toolbar" class="mdui-toolbar mdui-color-theme">
-    <button class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#sidebar', swipe: true}"><i class="iconfont icon-menu"></i></button>
-    <a href="/" class="mdui-typo-headline">SunYu 成長日記</a>
-    <a href="/" class="header-subtitle mdui-typo-headline">閱讀 | 分享 | 異想天開</a>
-    <div class="mdui-toolbar-spacer"></div>
-    <button class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: 'search'}"><i class="iconfont icon-search"></i></button>
+  <title>第 1 頁 | SunYu 成長日記</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta name="description" content="一個喜愛玩耍、腦洞大開，又愛讀書的奇男子。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SunYu 成長日記">
+<meta property="og:url" content="https://tillmac.github.io/index.html">
+<meta property="og:site_name" content="SunYu 成長日記">
+<meta property="og:description" content="一個喜愛玩耍、腦洞大開，又愛讀書的奇男子。">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="Sun Yu　孫宇">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="SunYu 成長日記" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+
+  <body>
+
+
+  
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
+
+
+<header id="allheader" class="site-header" role="banner" 
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" title="SunYu 成長日記" rel="home"> SunYu 成長日記 </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">一個喜愛玩耍、腦洞大開，又愛讀書的奇男子。</div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首頁</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">彙整</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">分類</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">標籤</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">關于</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
   </div>
 </header>
 
-<div class="mdui-dialog" id="search">
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
+        
+          <section id="main">
   
-    <div class="search-form">
-      <input type="search" class="search-form-input" placeholder="請輸入關鍵字" onfocus="listenSearchFunc()">
+    <article id="post-《快思慢想》閱讀心得"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/posts/813b1857.html">《快思慢想》閱讀心得</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/posts/813b1857.html" class="article-date">
+	  <time datetime="2020-10-05T00:00:00.000Z" itemprop="datePublished">十月 5, 2020</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/bookreview/">閱讀心得</a>
+ 
+      
     </div>
-    <div class="search-result" data-resource="/search.xml"></div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+
+          
+          <div class="entry-summary">
+          最先知道這本書是在兩年前（我大學一年級），從我哥房間書櫃挖出來的。當初被封面一支鉛筆、背景為乳白的極簡設計所吸引，同一時間我對於「思考」這一主題又是有興趣的，因此，我決定要在兩個月的時間內把這本書看完。殊不知，有這樣的心，卻沒有對應的能力，我才看不到三分之一，便覺得乏味、沒有動力繼續閱讀。
+直至近期，開始接觸經濟、股票、道德⋯⋯等多種不同範圍的主題，看到很多前輩很推一本書叫做《快思慢想》——也就是兩年前我無法看完的那一本書。這再次激起了我的好奇，究竟是怎麼樣的書能夠如此吸引人？而諾貝爾經濟學獎得主 Daniel Kahnemen 究竟寫了些什麼？難道後三分之二的內容才是精華所在？
+
+在多個疑問的驅使之下，我毅然決然地決定再次挑戰這本書，我想知道在經歷《原子習慣》等書的洗禮後（這本書我是在今年 2020 二月底看完，預計這個月會再讀一次，會再寫一篇閱讀心得，講述第一次閱後所產生的改變，以及第二次重閱後所產生的改變），到底能不能使我攻克《快思慢想》呢？回想起當時看這本書的記憶，只想起這本書充滿著很多令我頭昏眼花的專有名詞，以及十足的慢節奏，著實使當時的我吃不消而已。至於書中所倡導、公開的研究，我已忘了大半。所以，我決定再次挑戰它。
+
+        
+          <p class="article-more-link">
+            <a href="/posts/813b1857.html#more">閱讀全文</a>
+          </p>
+        </div>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/bookreview/">閱讀心得</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%BF%AB%E6%80%9D%E6%85%A2%E6%83%B3/" rel="tag">快思慢想</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/" rel="tag">閱讀心得</a></li></ul>
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
   
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-記憶力與智商的關係"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/posts/relationship-between-memory-and-iq.html">記憶力與智商的關係</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/posts/relationship-between-memory-and-iq.html" class="article-date">
+	  <time datetime="2020-09-11T00:00:00.000Z" itemprop="datePublished">九月 11, 2020</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/research/">小研究</a>
+ 
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+
+          
+          <div class="entry-summary">
+          大家好，今天想與大家聊聊記憶力與智商的關係。之所以會選擇這樣的題目進行研究，最重要的原因來自於我觀看 YouTube 時被下的廣告： XX 記憶學、 5 的無限次方立體記憶法⋯⋯等，廣告的內容多數為上過課程的學生，描述他們突飛猛進般地進步。先不論老師說話口吻是不是很像直銷（誤），也不論學費多寡、教材好壞，有學生從最後一名變成第一名確實是事實。老師也提到，學會了這個記憶方式，不但能解鎖大腦中的限制器，還可以提升智商。因此，我想了解記憶力好壞到底跟智商多寡有沒有關係；若有，關聯多大？
+
+        
+          <p class="article-more-link">
+            <a href="/posts/relationship-between-memory-and-iq.html#more">閱讀全文</a>
+          </p>
+        </div>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/research/">小研究</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B0%8F%E7%A0%94%E7%A9%B6/" rel="tag">小研究</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%99%BA%E5%95%86/" rel="tag">智商</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%95%B0%E6%83%B3%E5%A4%A9%E9%96%8B/" rel="tag">異想天開</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A8%98%E6%86%B6%E5%8A%9B/" rel="tag">記憶力</a></li></ul>
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-同情心還是同理心？又是什麼因素影響了它們？"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/posts/sympathy-or-empathy-and-the-factors.html">同情心還是同理心？又是什麼因素影響了它們？</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/posts/sympathy-or-empathy-and-the-factors.html" class="article-date">
+	  <time datetime="2020-08-24T00:00:00.000Z" itemprop="datePublished">八月 24, 2020</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/research/">小研究</a>
+ 
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+
+          
+          <div class="entry-summary">
+          大家好，本文即是上篇文章《金字塔原理》開頭所提到未完成之作。當初停工的原因基本上都寫入上篇文章中了，在此便不再贅述了。在進入正文前，我有兩件事情想跟大家說：一、我在 BacMuse 上寫了篇新文章啦！是關於沈迷遊戲的共有原因（即各種類型遊戲使人上癮的共同因素），還請大家多多拜訪一下（文章連結請點我）。二、我認為在進入正文前，有必要告訴大家為何我會想到這一主題。
+
+這次的主題從今年五月初便開始起了頭，不過當時的我還是位轉考生，所以沒有花太多力氣在上面，只是單純地記錄這一疑問，並與周遭的朋友討論罷了。那我的疑問是什麼呢？我的疑問為：「倘若今天有一個與自身沒有任何關係，且不認識的人逝世，我們該為此事感到悲傷嗎？我們該為他的家人感到悲傷嗎？」。很明顯的，這個問題實在是太廣了，這個死去的人可能是位富豪，有可能是位努力上班養家的小職員，或者是一位備受敬重的長者，更甚之，是一位罪大惡極的危險份子。由於題目過廣，我周遭的親朋好友，對於這一問題的回答，大都是「不會特別感到難過」。那若將題目稍微變得更詳細些呢？「有一個人平常以幫助他人為樂，卻慘遭橫禍」、「某某人為其家裡經濟支柱，因壓力過大而選擇輕生」（二敘述中的人亦與自身沒有任何關係，且不認識），身旁朋友卻有著「好可憐，怎麼會這樣子⋯⋯」之類的明顯表現「悲傷」之反應。一開始，我只是單純想了解為何人們會有如此反應，而隨著思索愈深入，原以為這樣的反應來自於同情心，卻發現同理心亦可引發如此表現！故此，我想了解兩者到底有何不同，又有哪些因素能影響它們呢？
+
+        
+          <p class="article-more-link">
+            <a href="/posts/sympathy-or-empathy-and-the-factors.html#more">閱讀全文</a>
+          </p>
+        </div>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/research/">小研究</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%90%8C%E6%83%85%E5%BF%83/" rel="tag">同情心</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%90%8C%E7%90%86%E5%BF%83/" rel="tag">同理心</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B0%8F%E7%A0%94%E7%A9%B6/" rel="tag">小研究</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%95%B0%E6%83%B3%E5%A4%A9%E9%96%8B/" rel="tag">異想天開</a></li></ul>
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-《金字塔原理》閱讀心得"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/posts/minto-pyramid-principle.html">《金字塔原理》閱讀心得</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/posts/minto-pyramid-principle.html" class="article-date">
+	  <time datetime="2020-08-10T00:00:00.000Z" itemprop="datePublished">八月 10, 2020</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/bookreview/">閱讀心得</a>
+ 
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+
+          
+          <div class="entry-summary">
+          在這篇文章之前，原本還有一篇文章，為一探討同情心及同理心成因之研究文章。無奈自身實力有限，寫出來的內容並不如想像中那樣嚴謹，多數敘述也只不過是未經驗證的個人看法，且內容雜亂，可謂毫無結構可言。因此，為了解決文章結構表達之問題，我翻了翻我哥的書櫃，找到了這本《金字塔原理》（原文書名為 The Minto Pyramid Principle ）。此本書不但順利地解決了我在整理思緒上所遇到的困難，還讓我對書寫方面有了新的看法：以邏輯為主軸。
+上了大學之後，我愈發不會表達，不論是內心所想，亦是分組報告。不曉得大家是否有遇到此種狀況：談論事情老是東跳西跳、雜亂無章，說出口的話即思考的內容。總而言之，我這樣的表達方式，造成了我與朋友間溝通的問題——他們得花更多時間去理解我說了什麼、欲表達之意思為何——這些都大大浪費了彼此的時間。
+幸虧我是幸運的，找到了這本書！接下來我會跟大家說說我對這本書的讀書心得，並告訴大家為何我會推薦這本書；若有進一步的問題，煩請諸位留言告知，謝謝各位。
+
+        
+          <p class="article-more-link">
+            <a href="/posts/minto-pyramid-principle.html#more">閱讀全文</a>
+          </p>
+        </div>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/bookreview/">閱讀心得</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/" rel="tag">金字塔原理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/" rel="tag">閱讀心得</a></li></ul>
+
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+
+
+</section>
+          <aside id="sidebar">
+  
+    <div style="margin: 20px 0;">
+	<div id="search-form-wrap">
+
+    <form class="search-form">
+        <label style="width: 72%;">
+            <span class="screen-reader-text">Search for:</span>
+            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" 搜尋…" value="" name="s" title="Search for:">
+        </label>
+        <input type="submit" class="search-form-submit" value="搜尋">
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="請輸入關鍵詞..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '頁面',
+            CATEGORIES: '分類',
+            TAGS: '標籤',
+            UNTITLED: '(無標題)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+</div>
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">聯系我們</h3>
+    <div class="widget widget_athemes_social_icons">
+
+    	<ul class="clearfix widget-social-icons">   
+    	
+   			<li><a target="_blank" rel="noopener" href="https://www.facebook.com/SunYu-%E6%88%90%E9%95%B7%E6%97%A5%E8%A8%98-100763945223126 || icon-facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/%E5%AE%87-%E5%AD%AB-1b940b123/ || icon-LinkedIn" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a target="_blank" rel="noopener" href="https://steamcommunity.com/id/djsunyu/ || icon-steam" title="Steam"><i class="fa fa-steam" aria-hidden="true"></i></a></li> 
+
+   		
+   		</ul>
+
+
+   		<!--
+   		<ul class="clearfix widget-social-icons">   		
+   		<li class="widget-si-twitter"><a target="_blank" rel="noopener" href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
+		<li class="widget-si-facebook"><a target="_blank" rel="noopener" href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
+			<li class="widget-si-gplus"><a target="_blank" rel="noopener" href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
+			<li class="widget-si-pinterest"><a target="_blank" rel="noopener" href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
+			<li class="widget-si-flickr"><a target="_blank" rel="noopener" href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
+			<li class="widget-si-instagram"><a target="_blank" rel="noopener" href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
+		</ul> -->
+
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget_athemes_tabs">
+    <ul id="widget-tab" class="clearfix widget-tab-nav">
+      <li class="active"><a>最新文章</a></li>
+    </ul>
+    <div class="widget">
+      <ul>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/posts/813b1857.html">《快思慢想》閱讀心得</a></h6>
+              <span>十月 5, 2020</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/posts/relationship-between-memory-and-iq.html">記憶力與智商的關係</a></h6>
+              <span>九月 11, 2020</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/posts/sympathy-or-empathy-and-the-factors.html">同情心還是同理心？又是什麼因素影響了它們？</a></h6>
+              <span>八月 24, 2020</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/posts/minto-pyramid-principle.html">《金字塔原理》閱讀心得</a></h6>
+              <span>八月 10, 2020</span>
+            </div>
+
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分類</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/research/">小研究</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/bookreview/">閱讀心得</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">標籤</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%90%8C%E6%83%85%E5%BF%83/" rel="tag">同情心</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%90%8C%E7%90%86%E5%BF%83/" rel="tag">同理心</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E7%A0%94%E7%A9%B6/" rel="tag">小研究</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BF%AB%E6%80%9D%E6%85%A2%E6%83%B3/" rel="tag">快思慢想</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%99%BA%E5%95%86/" rel="tag">智商</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%95%B0%E6%83%B3%E5%A4%A9%E9%96%8B/" rel="tag">異想天開</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A8%98%E6%86%B6%E5%8A%9B/" rel="tag">記憶力</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/" rel="tag">金字塔原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/" rel="tag">閱讀心得</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">標籤雲</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E5%90%8C%E6%83%85%E5%BF%83/" style="font-size: 10px;">同情心</a> <a href="/tags/%E5%90%8C%E7%90%86%E5%BF%83/" style="font-size: 10px;">同理心</a> <a href="/tags/%E5%B0%8F%E7%A0%94%E7%A9%B6/" style="font-size: 20px;">小研究</a> <a href="/tags/%E5%BF%AB%E6%80%9D%E6%85%A2%E6%83%B3/" style="font-size: 10px;">快思慢想</a> <a href="/tags/%E6%99%BA%E5%95%86/" style="font-size: 10px;">智商</a> <a href="/tags/%E7%95%B0%E6%83%B3%E5%A4%A9%E9%96%8B/" style="font-size: 20px;">異想天開</a> <a href="/tags/%E8%A8%98%E6%86%B6%E5%8A%9B/" style="font-size: 10px;">記憶力</a> <a href="/tags/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/" style="font-size: 10px;">金字塔原理</a> <a href="/tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/" style="font-size: 20px;">閱讀心得</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">彙整</h3>
+
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">九月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">八月 2020</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2021 SunYu 成長日記 All Rights Reserved.
+        
+            <span id="busuanzi_container_site_uv">
+              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+            </span>
+          
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
 </div>
 
-  <aside id="sidebar" class="mdui-drawer">
-    <div class="mdui-tab" mdui-tab>
-        <a href="#sidebar-tab1" id="sidebartab" class="mdui-ripple mdui-tab-active">站點概覽</a>
-        <a href="#sidebar-tab2" id="sidebartab" class="mdui-ripple">關於我</a>
-    </div>
+<!-- mathjax config similar to math.stackexchange -->
 
-    
-    <div id="sidebar-tab1" class="mdui-p-a-1">
-        <div class="mdui-list">
-            
-                
-                <a href="/" class="mdui-list-item mdui-ripple">
-                    <div class="mdui-list-item-icon">
-                        <i class="iconfont icon-home"></i>
-                    </div>
-                    <div class="mdui-list-item-content">首頁</div>
-                </a>
-            
-                
-                <a href="/tags/" class="mdui-list-item mdui-ripple">
-                    <div class="mdui-list-item-icon">
-                        <i class="iconfont icon-bookmark"></i>
-                    </div>
-                    <div class="mdui-list-item-content">標籤</div>
-                </a>
-            
-                
-                <a href="/categories/" class="mdui-list-item mdui-ripple">
-                    <div class="mdui-list-item-icon">
-                        <i class="iconfont icon-folder"></i>
-                    </div>
-                    <div class="mdui-list-item-content">分類</div>
-                </a>
-            
-                
-                <a href="/archives/" class="mdui-list-item mdui-ripple">
-                    <div class="mdui-list-item-icon">
-                        <i class="iconfont icon-archive"></i>
-                    </div>
-                    <div class="mdui-list-item-content">歸檔</div>
-                </a>
-            
-            <div class="mdui-list-item mdui-ripple">
-                <div class="mdui-list-item-icon">
-                    <i class="iconfont icon-moon"></i>
-                </div>
-                <div class="mdui-list-item-content">夜間模式</div>
-                <label class="mdui-switch" id="darkmode">
-                  <input type="checkbox" id="nightmode_switch"/>
-                  <i class="mdui-switch-icon"></i>
-                </label>
-            </div>           
-        </div>
-    </div>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
 
-    
-    <div id="sidebar-tab2" class="mdui-p-a-1">
-        <div class="sidebar-overview">
-            <div class="sidebar-avatar">
-                
-                    <img src="/icons/avatar.gif"/>
-                
-            </div>
-            <div class="sidebar-author-name">Sun Yu　孫宇</div>
-            <div class="sidebar-description">一個喜愛玩耍、腦洞大開，又愛讀書的奇男子。</div>
-        </div>
-        <div class="sidebar-links">
-            
-                
-                <div class="mdui-chip">
-                    <span class="mdui-chip-icon"><i class="iconfont icon-mail"></i></span>
-                    <a href="mailto:danny890308@gmail.com" class="mdui-chip-title">E-Mail</a>
-                </div>
-            
-                
-                <div class="mdui-chip">
-                    <span class="mdui-chip-icon"><i class="iconfont icon-facebook"></i></span>
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/SunYu-%E6%88%90%E9%95%B7%E6%97%A5%E8%A8%98-100763945223126" class="mdui-chip-title">FaceBook</a>
-                </div>
-            
-                
-                <div class="mdui-chip">
-                    <span class="mdui-chip-icon"><i class="iconfont icon-fish"></i></span>
-                    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/%E5%AE%87-%E5%AD%AB-1b940b123/" class="mdui-chip-title">LinkedIn</a>
-                </div>
-            
-                
-                <div class="mdui-chip">
-                    <span class="mdui-chip-icon"><i class="iconfont icon-steam"></i></span>
-                    <a target="_blank" rel="noopener" href="https://steamcommunity.com/id/djsunyu/" class="mdui-chip-title">Steam</a>
-                </div>
-            
-        </div>
-        <ul class="mdui-list" mdui-collapse="{accordion: true}">
-            <li class="mdui-collapse-item">
-                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-                    <div class="mdui-list-item-icon">
-                        <i class="iconfont icon-link"></i>
-                    </div>
-                    <div class="mdui-list-item-content">友情連結</div>
-                    <div class="mdui-collapse-item-arrow">
-                        <i class="mdui-list-item-icon iconfont icon-angle-down"></i>
-                    </div>
-                </div>
-                <ul id="linksList" class="mdui-collapse-item-body mdui-list mdui-list-dense">
-                    
-                        <a target="_blank" rel="noopener" href="https://zhsont.wordpress.com/" class="mdui-list-item mdui-ripple">
-                            Michael Chuang 的部落格
-                        </a>
-                    
-                        <a target="_blank" rel="noopener" href="https://garybear.cn/hexo-theme-meadow/" class="mdui-list-item mdui-ripple">
-                            Meadow佈景說明文件
-                        </a>
-                    
-                </ul>
-            </li>
-        </ul>
-    </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
 
-    <div class="mdui-divider"></div>
-    
-    
-</aside>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
   
-  <main id="main-contain" class="mdui-container mdui-m-t-5">
-    
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/posts/c2690fdf.html">test 123</a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      發布於:&nbsp;2021-01-07
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新於:&nbsp;2021-01-07
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分類於:&nbsp;
-    </span>
-    
-  </div>
-</div>   
-    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
 
-      
-      
-  <div class="tag-line-space"></div>
 
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            <p>測試測試</p>
-          
-        </div>
-        
-        <div style="text-align:center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/posts/c2690fdf.html">閱讀更多</a>
-        </div>
-      </div>
-    </article>
+<script src="/js/script.js"></script>
 
-    <article class="mdui-card mdui-m-b-5 mdui-hoverable">    
-      
-      
-        <div class="post-header"> 
-  <a class="post-header-title" href="/posts/813b1857.html">《快思慢想》閱讀心得</a>
-  <div class="post-header-meta">
-    <span>
-      <span class="iconfont icon-calendar"></span>
-      發布於:&nbsp;2020-10-05
-    </span>
-    <span>
-      <span class="iconfont icon-calendar-check"></span>
-      更新於:&nbsp;2021-01-07
-    </span>
-    <span>
-      <span class="iconfont icon-folder"></span>
-      分類於:&nbsp;<a class="category-link" href="/categories/review/">閱讀心得</a>
-    </span>
-    
-  </div>
-</div>   
-    
+
+<script src="/js/bootstrap.js"></script>
+
+
+<script src="/js/main.js"></script>
 
 
 
-      
-      
-  <div class="post-tags">
-    
-      <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/%E5%BF%AB%E6%80%9D%E6%85%A2%E6%83%B3/ >快思慢想</a>
-      </i>
-    
-      <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/ >閱讀心得</a>
-      </i>
-    
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-L3L2GJYZFP', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
   </div>
 
-      
-      <div id="achieve-abstract" class="mdui-card-content mdui-p-x-4">
-        <div class="post-abstract mdui-typo ">
-          
-            <p>最先知道這本書是在兩年前（我大學一年級），從我哥房間書櫃挖出來的。當初被封面一支鉛筆、背景為乳白的極簡設計所吸引，同一時間我對於「思考」這一主題又是有興趣的，因此，我決定要在兩個月的時間內把這本書看完。殊不知，有這樣的心，卻沒有對應的能力，我才看不到三分之一，便覺得乏味、沒有動力繼續閱讀。</p>
-<p>直至近期，開始接觸經濟、股票、道德⋯⋯等多種不同範圍的主題，看到很多前輩很推一本書叫做《快思慢想》——也就是兩年前我無法看完的那一本書。這再次激起了我的好奇，究竟是怎麼樣的書能夠如此吸引人？而諾貝爾經濟學獎得主 Daniel Kahnemen 究竟寫了些什麼？難道後三分之二的內容才是精華所在？</p>
-
-<p>在多個疑問的驅使之下，我毅然決然地決定再次挑戰這本書，我想知道在經歷《原子習慣》等書的洗禮後（這本書我是在今年 2020 二月底看完，預計這個月會再讀一次，會再寫一篇閱讀心得，講述第一次閱後所產生的改變，以及第二次重閱後所產生的改變），到底能不能使我攻克《快思慢想》呢？回想起當時看這本書的記憶，只想起這本書充滿著很多令我頭昏眼花的專有名詞，以及十足的慢節奏，著實使當時的我吃不消而已。至於書中所倡導、公開的研究，我已忘了大半。所以，我決定再次挑戰它。</p>
-          
-        </div>
-        
-        <div style="text-align:center;">
-          <a class="post-readmore mdui-btn mdui-ripple mdui-btn-raised" href="/posts/813b1857.html">閱讀更多</a>
-        </div>
-      </div>
-    </article>
 
 
-
-  </main>
-  <footer id="footer" class="mdui-text-center mdui-m-t-5 mdui-p-b-2 mdui-p-t-4 mdui-color-theme">
-  <div class="mdui-container">
-    <div class="mdui-row">
-      
-      <span>
-        &copy; 2020 - 2021 
-        
-          <span style="color:#d9333f" class="iconfont icon-heart"></span>
-        
-        Sun Yu　孫宇
-      </span>
-    </div>
-    <div class="mdui-row">
-      
-        <div class="mdui-col-xs-6 mdui-text-right">
-          <span>Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a></span>
-        </div>
-        <div class="mdui-col-xs-6 mdui-text-left">
-          <span>Theme: <a href="https://github.com/kb1000fx/Meadow" rel="noopener" target="_blank">Meadow</a></span>
-        </div>
-      
-    </div>
-    <div class="mdui-row">
-      
-    </div>
- </div>
-</footer>
-  
-  <button id="gotop" class="mdui-fab mdui-fab-fixed mdui-fab-hide mdui-ripple mdui-color-teal" style="z-index:100;"><i class="iconfont icon-arrowup"></i></button>
-  
-  
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
 
 
 
 
 
 
+  </div>
 
-    
-<script src="/js/mdui.min.v1.0.0.js"></script>
-
-
-
-
-<script src="/js/meadow.js"></script>
-
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
 </body>
-</html >
+</html>
